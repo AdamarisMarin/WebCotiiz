@@ -1,0 +1,77 @@
+/* Estilos del header */
+.header {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow: hidden; /* Asegura que todo el contenido quede dentro de la sección */
+}
+
+.header .container {
+    z-index: 10;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.header h4 {
+    font-size: 3.5rem; /* Tamaño de letra más grande */
+    font-family: 'Roboto', sans-serif; /* Fuente moderna y profesional */
+    font-weight: 700; /* Negrita */
+    margin-bottom: 20px;
+    letter-spacing: 1.5px; /* Espaciado de letras */
+    color: #f9fafb; /* Color blanco suave para el título */
+    transition: transform 0.3s ease;
+}
+
+.header h4:hover {
+    transform: scale(1.05); /* Efecto de hover con escala */
+}
+
+.header p {
+    font-size: 1.125rem; /* Tamaño de letra más grande */
+    line-height: 1.7;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.9; /* Aumentar la opacidad para una mejor visibilidad */
+    color: #d1d5db; /* Gris claro para el texto */
+    font-family: 'Open Sans', sans-serif; /* Fuente limpia y moderna */
+}
+
+.header .btn {
+    display: inline-block;
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 30px;
+    background-color: #4C51BF; /* Color de fondo azul oscuro */
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-transform: uppercase; /* Poner en mayúsculas */
+    font-family: 'Roboto', sans-serif;
+}
+
+.header .btn:hover {
+    background-color: #3e44b2; /* Color de hover más oscuro */
+    transform: translateY(-5px);
+}
+
+/* Superposición oscura */
+.header .absolute {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro con opacidad */
+    z-index: 5;
+}
+
+.header p {
+    font-size: 1rem;
+    margin-top: 20px;
+    opacity: 0.7;
+    color: #f9fafb; /* Color blanco suave para el texto */
+}
+
+
+
+
